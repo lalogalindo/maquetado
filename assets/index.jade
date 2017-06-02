@@ -93,23 +93,331 @@ head
           img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_180,h_180,c_limit,q_25/v1496393030/grupomas/bulb16.png') 
           p.title d2s
       legend
-      section#venta.flex
-        aside
-          h3.filter-title HID XENON
-          ul.filter
-            li
-              input(type='checkbox')
-              | Accesorios (8)    
-            li
-              input(type='checkbox')
-              | Repuestos (39)
-            li
-              input(type='checkbox')
-              | kits de Xen&oacute;n (174)
-        article.item
-          .rating
-            span &star;           
-            span &star;           
-            span &star;           
-            span &star;           
-            span &star;
+      section#ventas
+        aside.filtros
+            button.showFiltros Filtros
+            h4.filter-title HID XENON
+            ul.filter
+              li
+                input(type='checkbox')
+                | Accesorios (8)    
+              li
+                input(type='checkbox')
+                | Repuestos (39)
+              li
+                input(type='checkbox')
+                | kits de Xen&oacute;n (174)
+            
+            h4.filter-title MARCA
+            ul.filter
+              li
+                input(type='checkbox')
+                | AMP (43)    
+              li
+                input(type='checkbox')
+                | BAC (58)
+              li
+                input(type='checkbox')
+                | MICOTA (20)
+              li
+                input(type='checkbox')
+                | OLLO (6)
+              li
+                input(type='checkbox')
+                | OSUN (74)
+              li
+                input(type='checkbox')
+                | USQ (20)
+                
+            h4.filter-title CORRIENTE DEL BALASTRO
+            ul.filter
+              li
+                input(type='checkbox')
+                | AC CORRIENTE ALTERNA (86)    
+              li
+                input(type='checkbox')
+                | DC CORRIENTE DIRECTA (74)
+            
+            h4.filter-title TIPO DE VEHICULO
+            ul.filter
+              li
+                input(type='checkbox')
+                | PARA AUTOMÓVIL (120)    
+              li
+                input(type='checkbox')
+                | PARA CAMIONETA (32)
+              li
+                input(type='checkbox')
+                | PARA CAMIÓN (20)
+                
+            h4.filter-title FUNCIÓN
+            ul.filter
+              li
+                input(type='checkbox')
+                | D2S/D2R (4)    
+              li
+                input(type='checkbox')
+                | DIS (1)
+              li
+                input(type='checkbox')
+                | BIXENÓN REAL (3)
+              li
+                input(type='checkbox')
+                | BIXENÓN MOTORIZADO (3)    
+              li
+                input(type='checkbox')
+                | BAJA Y DUAL (65)
+              li
+                input(type='checkbox')
+                | BIXENON REAL (9)
+              li
+                input(type='checkbox')
+                | BIXENON MOTORIZADO (12)
+                        
+            h4.filter-title MEDIDA DE BULBO
+            ul.filter
+              li
+                input(type='checkbox')
+                | H1 (10)    
+              li
+                input(type='checkbox')
+                | H3 (10)
+              li
+                input(type='checkbox')
+                | H7 (10)
+              li
+                input(type='checkbox')
+                | H10/9140 (9)
+        
+        section.items.flex
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit1.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit2.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit3.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit4.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit5.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit6.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit7.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit8.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit9.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit10.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit11.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit12.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit13.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit14.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+            article.item
+                img.img-responsive(src='http://res.cloudinary.com/lalogalindo/image/upload/w_150,h_150,c_limit,q_25/v1496393030/grupomas/kit15.png')
+                p.title Kit de Xenón OSUN Motorizado
+                p.old-price $700.00 MXN
+                p.new-price $500.00 MXN
+                button.comprar Comprar
+                .rating
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                    span &star;
+                label.comparar
+                    input(type="checkbox")
+                    | Comparar
+    script.
+        document.querySelector('.showFiltros').addEventListener('click',function(ev){
+            (ev.currentTarget.parentElement.classList.contains('active')) 
+            ? ev.currentTarget.parentElement.classList.remove('active')
+            : ev.currentTarget.parentElement.classList.add('active')
+        })

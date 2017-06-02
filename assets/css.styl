@@ -35,6 +35,87 @@ legend
 section
     padding: 20px 0
 
+#ventas
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    text-align: center
+
+    .filtros
+        width: 15%
+
+        .showFiltros
+            display: none
+
+        @media only screen and (max-width : 480px)
+            background: white
+            border: solid thin $lightgrey
+            left: -250px
+            padding: 0 30px
+            position: absolute
+            transition: ease all .5s
+            width: initial
+            z-index: 999
+
+            .showFiltros
+                display: block
+                position: absolute
+                right: -60px
+                top: 10px
+                transition: ease all .5s
+
+    .filtros.active
+
+        @media only screen and (max-width : 480px)
+            left: 30px
+
+            .showFiltros
+                display: block
+                position: absolute
+                right: 10px
+                top: 10px
+    .items
+        width: 85%
+
+        .item
+            margin-top: 10px
+            text-align: left
+            width: 150px
+
+            @media only screen and (max-width : 480px)
+                width: 120px
+
+                img
+                    height: auto
+
+            img
+                height: 150px
+
+            .title
+                color: orange
+                font-size: .8em
+                margin: 0 0 20px
+
+            .old-price
+                font-size: .9em
+                margin: 0
+                text-align: left
+                text-decoration: line-through
+
+            .new-price
+                margin: 0
+                text-align: left
+
+            .comprar
+                background: orange
+                border: 0
+                color: white
+                height: 35px
+                width: 100px
+
+            .comparar
+                font-size: .8em
+
 .bulb
     margin: 10px auto
     text-align: center
@@ -109,8 +190,12 @@ section
     padding: 0
     text-transform: uppercase
 
+    li
+        font-size: .75em
+
 .filter-title
-    margin: 0
+    font-weight: bolder
+    margin: 20px 0 0
 
 .flex
     display: flex
