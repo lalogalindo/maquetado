@@ -19,16 +19,16 @@
 		"oA": 0,
 		"oAP": "\/css.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 1,
 		"rrU": 0
 		},
 	"\/assets\/index.jade": {
-		"cOD": 1,
+		"cOD": 0,
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 2,
-		"oS": 0
+		"oS": 1
 		},
 	"\/css.css": {
 		"aP": 1,
