@@ -1,17 +1,47 @@
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 480px) {
+    .carro {
+        margin: 10px auto;
+        text-align: center;
+        width: 265px;
+    }
 }
 
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
+    .carro {
+        margin: 10px auto;
+        text-align: center;
+        width: 210px;
+    }
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1025px) {
+    .contenedor {
+        border: solid thin grey;
+        margin: 0 auto;
+        padding: 20px;
+        width: 1000px;
+    }
+    .carro {
+        margin: 10px auto;
+        text-align: center;
+        width: 250px;
+    }
+    
+    .carro > .description {
+        color: slategrey;
+        font-size: 0.8em;
+    }
 }
 
 html {
-    text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+}
+
+legend {
+    text-transform: uppercase;
 }
 
 legend > strong {
@@ -22,51 +52,71 @@ legend > strong {
 .flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
 }
-.carro {
-    width: 265px;
-    text-align: center;
-    margin: 10px auto;
-}
+
+/* CARRO */
 .carro img {
     width: 100%;
 }
+.carro > .title,
+.carro > .description {
+    margin: 4px 0 0;
+}
+.carro > .title {
+    color: cornflowerblue;
+    text-transform: uppercase;
+}
+
+.carro > .description {
+    color: slategrey;
+    font-size: 0.8em;
+}
+
+/* BULBS */
 .bulb {
-    width: 125px;
-    text-align: center;
     margin: 10px auto;
+    text-align: center;
+    width: 125px;
 }
+
+/* SHOPPING */
 .rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
+
 .rating > span {
   display: inline-block;
   position: relative;
   width: 1.1em;
 }
+
 .rating > span:hover:before,
 .rating > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
 }
+
 .img-responsive {
     display: block;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
+
 aside {
     text-align: left;
 }
+
 .filter {
+    list-style: none;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    list-style: none;
 }
+
 .filter-title {
     margin: 0;
 }
