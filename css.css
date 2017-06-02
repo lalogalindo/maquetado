@@ -15,7 +15,7 @@
     }
 }
 
-legend {
+html {
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -37,6 +37,9 @@ legend > strong {
     text-align: center;
     margin: 10px auto;
 }
+.carro img {
+    width: 100%;
+}
 .bulb {
     width: 125px;
     text-align: center;
@@ -55,4 +58,21 @@ legend > strong {
 .rating > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+aside {
+    text-align: left;
+}
+.filter {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    list-style: none;
+}
+.filter-title {
+    margin: 0;
 }
