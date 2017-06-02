@@ -4,15 +4,9 @@
 }
 
 @media only screen and (min-width : 481px) and (max-width : 1024px) {
-    body {
-        background: red;
-    }
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1025px) {
-    body {
-        background: green;
-    }
 }
 
 html {
